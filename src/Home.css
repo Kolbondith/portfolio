@@ -1,0 +1,132 @@
+.home__bg{
+    background-color: #010101;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li.nav__items{
+    font-size: 18px;
+    padding-bottom: 15px;
+    color: rgb(248, 248, 248);
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+    
+}
+li.nav__items:hover{
+    color:red
+}
+.home__content{
+    padding: 125px 0px;
+}
+h1.home__text{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgba(198,201,216,.75)!important;
+    text-align: center;
+}
+h2.home__text{
+    font-size: 54px;
+    line-height: 54px;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+    text-align: center;
+}
+h3.home__text{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+    line-height: 40px;
+    text-align: center;
+    color:red
+}
+h4.home__text{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    font-family: Montserrat,sans-serif;
+    text-align: center;
+    
+}
+.header{
+    transition: .4s all ease;
+    background-color: #010101;
+    width: 100%;
+}
+.header.active{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #191919;
+}
+.toggle__menu {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    z-index: 1000;
+    width: 100%;
+}
+ul.sidebar.d__flex {
+    flex-wrap: wrap;
+    height: 100%;
+    position: fixed;
+    right: 0%;
+    background: #010101;
+    justify-content: center;
+    width: 300px;
+    top: 0%;
+    flex-direction: column;
+}
+li.sideNavbar{
+    padding: 25px 30px;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 768px){
+ .header{
+     justify-content: space-between;
+ }
+ .navigation.pxy__30 {
+        display: none;
+    }
+h2.white.pz__10 {
+    font-size: 50px!important;
+}
+svg.bi.bi-justify.white.pointer {
+    width: 30px;
+    height: 30px;
+}
+li.nav__items{
+    font-size: 13px;
+    padding-bottom: 10px;
+    color: rgb(248, 248, 248);
+    font-family: Montserrat,sans-serif;
+    font-weight: 200;
+    padding-left: 3px;
+    
+}
+}
+@media only screen and (max-width: 425px){
+    h2.home__text.pz__10{
+    font-size: 32px;
+}
+
+h3.sweet.pz__10 {
+    font-size: 40px;
+}
+h1.home__text {
+    font-size: 14px;
+}
+h4.home__text {
+    font-size: 45px;
+}
+li.nav__items{
+    font-size: 10px;
+    padding-bottom: 10px;
+    color: rgb(248, 248, 248);
+    font-family: Montserrat,sans-serif;
+    font-weight: 200;
+    padding-left: 0px;
+    
+}
+}
