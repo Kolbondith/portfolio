@@ -8,9 +8,7 @@ function About(){
         <div className="about component__space" id="About">
             <div className="container">
                 <div className="rar">
-                    <div className="col__2">
-                        <Image src={aboutImg} alt="about" rounded style={{width:'70%', height:'20%'}} />
-                    </div>
+                   
                     <div className="col__2">
                         <h1 className="about__heading">About Me</h1>
                         <div>
@@ -39,6 +37,9 @@ function About(){
                                 </a>
                             </div>
                         </div>
+                    </div>
+                    <div className="col__2">
+                        <Image className="about__img" src={aboutImg} alt="about" rounded  />
                     </div>
                 </div>
             </div>
