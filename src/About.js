@@ -3,6 +3,7 @@ import aboutImg from './img/aboutImg.jpg';
 import './About.css'
 import {Image} from 'react-bootstrap';
 import { Link as Scroll } from 'react-scroll';
+import CV from './cv/doungkolbondith.pdf'
 
 function About(){
     return (
@@ -19,7 +20,7 @@ function About(){
                                 I like to findout new idea to develop to make our society better.
                             </p>
                             <div className="about__button d__flex align__items__center">
-                                <a href="#">
+                                <a href={CV} download>
                                     <button className="about btn pointer">Download Cv</button>
                                 </a>
                                 <Scroll to="Contact" href="">
