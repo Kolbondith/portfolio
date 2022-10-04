@@ -17,7 +17,7 @@ function Header() {
   };
   return (
     <nav className="nav">
-      <Scroll href="#" className="nav__brand"  >
+      <Scroll to="home" className="nav__brand" smooth={true} href=""  >
         <b>Doung Kolbondith</b>
       </Scroll>
       <ul className={active}>
