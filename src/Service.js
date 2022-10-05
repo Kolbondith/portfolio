@@ -8,12 +8,6 @@ function Service(){
 
             <div className="heading">
                 <h1 className="heading">My Service For You</h1>
-                <p className="heading p__color">
-                     There are many variations of passages of Lorem Ipsum available,
-                </p>
-                <p className="heading p__color">
-                    but the majority have suffered alteration.
-                </p>
             </div>
 
             <div className="container">
@@ -26,12 +20,8 @@ function Service(){
                             <div className="service__meta">
                                 <h1 className="service__text">Backend Development</h1>
                                 <p className="p service__text p__color">
-                                   I can use Django to create api  to
+                                   I can use Django to create api  to interract with frontend smoothly.
                                 </p>
-                                <p className="p service__text p__color">
-                                    interract with frontend smoothly
-                                </p>
-                                <p className="p service__text p__color">without any error.</p>
                             </div>
                         </div>
                     </div>
@@ -57,12 +47,9 @@ function Service(){
                         <div className="service__meta">
                             <h1 className="service__text">Frontend Development</h1>
                             <p className="p service__text p__color">
-                                I can create webapp using React
+                                I can create webapp using React Html Css and JavaScript.
                             </p>
-                            <p className="p service__text p__color">
-                                Html Css and JavaScript
-                            </p>
-                            <p className="p service__text p__color">Responsivly.</p>
+                            
                         </div>
                         </div>
                     </div>

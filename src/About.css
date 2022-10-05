@@ -12,6 +12,7 @@
 }
 .about__img{
     width: 50%;
+    align-items: center;
 }
 h1.about__heading{
     margin-bottom: 10px;

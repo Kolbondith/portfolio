@@ -28,6 +28,7 @@ p.heading.p__color {
     background-color: #191919;
     padding: 55px;
     transition: .4s ease;
+    height: 40rem;
 }
 .service__box:hover {
     transform: translateY(5px);
@@ -62,4 +63,14 @@ h1.service__text {
 .service__box {
     padding: 32px;
 }
+}
+@media only screen and (max-width: 425px){
+    .service__box {
+            border-radius: 10px;
+            width: 100%;
+            background-color: #191919;
+            padding: 55px;
+            transition: .4s ease;
+            height: 32rem;
+        }
 }
